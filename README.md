@@ -2,6 +2,15 @@
 
 An Android prototype developed in Java as a bachelor's degree project. The app uses phone sensor and location data to identify potential cycling falls and starts an alert that the rider can cancel.
 
+## Project overview
+
+**Problem:** Explore how a phone could recognize a possible bicycle fall and give the rider an opportunity to cancel a false alarm.
+
+**Approach:** Combine sensor thresholds with location information, distinguish bike-mounted and pocket use, and separate the alert countdown from the main sensor processing.
+
+**Result:** An Android prototype with a cancelable alert and email notification flow. Detection accuracy and delivery reliability are not presented as validated outcomes.
+
+
 ## Features
 
 - Accelerometer and GPS data used in fall-detection logic.
@@ -35,3 +44,7 @@ The original build configuration uses Android SDK 29, Build Tools 29.0.3, Androi
 ## Project status
 
 An academic prototype for exploring sensor-based fall detection. It is not a validated emergency-response system. Current device compatibility and email delivery have not been revalidated.
+
+## Feedback and contributions
+
+For a bug report, open a repository issue with steps to reproduce, expected and actual behavior, and your browser or device details. Discuss substantial changes in an issue before opening a pull request. Keep changes focused and describe how you checked them.
